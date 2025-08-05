@@ -2,31 +2,31 @@ import React from "react";
 
 const runningBatches = [
   {
-    name: "JEE Main 2024",
-    time: "Mon-Fri, 5:00 PM - 7:00 PM",
+    name: "JAC 12th BOARD 2024",
+    time: "Mon-Fri, 3:00 PM - 4:00 PM",
     teacher: "Satendar",
     room: "Room 101",
   },
   {
-    name: "CBSE 12th Board",
-    time: "Mon-Wed, 3:00 PM - 4:30 PM",
-    teacher: "Priya",
-    room: "Room 102",
+    name: "JAC 12th BOARD 2024",
+    time: "Mon-Fri, 4:00 PM - 5:00 PM",
+    teacher: "Satendar",
+    room: "Room 101",
   },
 ];
 
 const upcomingBatches = [
   {
-    name: "JAC 10th Foundation",
-    time: "Starting July 10, 4:00 PM - 5:30 PM",
-    teacher: "Rahul",
-    room: "Room 103",
+    name: "JAC 12th BOARD 2024",
+    time: "Mon-Fri, 5:00 PM - 6:00 AM",
+    teacher: "Satendar",
+    room: "Room 101",
   },
   {
-    name: "CBSE 11th Maths",
-    time: "Starting August 1, 6:00 PM - 7:30 PM",
-    teacher: "Amit",
-    room: "Room 104",
+    name: "JAC 12th BOARD 2024",
+    time: "Mon-Fri, 6:00 PM - 7:00 AM",
+    teacher: "Satendar",
+    room: "Room 101",
   },
 ];
 
