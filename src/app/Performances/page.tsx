@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import type { StaticImageData } from 'next/image';
 import rahul from '../../assets/rahul.png'
 // Extended toppers data organized by year only
 const performanceData = {
@@ -167,6 +168,33 @@ const performanceData = {
 };
 
 const PerformancesPage = () => {
+  interface StudentDetails {
+    jeeMains?: string;
+    jeeAdvanced?: string;
+    neet?: string;
+    board12th?: string;
+    board10th?: string;
+    mathematics?: string;
+    physics?: string;
+    chemistry?: string;
+    biology?: string;
+    science?: string;
+    english?: string;
+    socialStudies?: string;
+    subjects: string[];
+    coachingDuration: string;
+    batch: string;
+  }
+  
+  interface Student {
+    name: string;
+    photo: any; // Or: StaticImageData if using `import` images
+    achievement: string;
+    rollCode: string;
+    rollNumber: string;
+    details: StudentDetails;
+  }
+  
   return (
     <>
       <div className="min-h-screen bg-gradient-to-br from-white to-blue-50">
@@ -193,7 +221,7 @@ const PerformancesPage = () => {
               </h2>
               
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {students.map((student: any, idx: number) => (
+              {(students as Student[]).map((student, idx) => (
                   <div key={idx} className="group relative bg-white rounded-3xl shadow-xl p-8 flex flex-col items-center w-full max-w-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border border-gray-100 overflow-hidden">
                     {/* Background Gradient */}
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>

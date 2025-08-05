@@ -63,7 +63,8 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Personalized Learning</h3>
-                    <p className="text-gray-600">Tailored approach for each student's unique learning style</p>
+                    <p className="text-gray-600">Tailored approach for each student&apos;s unique learning style</p>
+
                   </div>
                 </div>
                 <div className="flex items-start">
