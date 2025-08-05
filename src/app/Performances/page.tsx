@@ -188,7 +188,7 @@ const PerformancesPage = () => {
   
   interface Student {
     name: string;
-    photo: any; // Or: StaticImageData if using `import` images
+    photo: StaticImageData; // Or: StaticImageData if using `import` images
     achievement: string;
     rollCode: string;
     rollNumber: string;
