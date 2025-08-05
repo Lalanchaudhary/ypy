@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin } from "lucide-react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -38,10 +39,10 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold text-blue-600 mb-4">Quick Links</h3>
           <ul className="space-y-2 text-sm text-gray-700">
-            <li><a href="/" className="hover:text-blue-700">Home</a></li>
-            <li><a href="/about" className="hover:text-blue-700">About Us</a></li>
-            <li><a href="/gallery" className="hover:text-blue-700">Gallery</a></li>
-            <li><a href="/contact" className="hover:text-blue-700">Contact</a></li>
+            <li><Link href="/" className="hover:text-blue-700">Home</Link></li>
+            <li><Link href="/about" className="hover:text-blue-700">About Us</Link></li>
+            <li><Link href="/gallery" className="hover:text-blue-700">Gallery</Link></li>
+            <li><Link href="/contact" className="hover:text-blue-700">Contact</Link></li>
           </ul>
         </div>
 

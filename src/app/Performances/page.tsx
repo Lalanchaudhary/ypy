@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import rahul from '../../assets/rahul.png'
 // Extended toppers data organized by year only

@@ -6,7 +6,6 @@ import Performance from '@/components/home/Performance'
 import { StudentReview } from '@/components/home/StudentReview'
 import TestResult from '@/components/home/TestResult'
 import WhyChooseUs from '@/components/home/WhuChooseUs'
-import Navbar from '@/components/Navbar'
 import React from 'react'
 
 const Homepage = () => {
